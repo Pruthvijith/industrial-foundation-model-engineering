@@ -1,0 +1,16 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "threads": 3,
+  "seed": 1729,
+  "train_groups": 24,
+  "test_groups": 12,
+  "batch_size": 2,
+  "sft_steps": 36,
+  "dpo_steps": 16,
+  "learning_rate": 0.0005,
+  "rank": 8,
+  "device": "cuda",
+  "precision": "bfloat16",
+  "qlora": true
+}

@@ -1,0 +1,1 @@
+{"model":"HuggingFaceTB/SmolLM2-135M","revision":"93efa2f097d58c2a74874c7e644dbc9b0cee75a2","threads":3,"seed":1729,"train_groups":24,"test_groups":12,"batch_size":4,"sft_steps":36,"dpo_steps":16,"learning_rate":0.0005,"rank":8,"device":"cpu","precision":"float32","qlora":false}
