@@ -1,0 +1,70 @@
+[
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "config_model_type": "mistral",
+    "attention_heads": 32,
+    "spaced_tokens": [
+      [
+        1098
+      ],
+      [
+        1133
+      ],
+      [
+        1102
+      ],
+      [
+        1152
+      ]
+    ],
+    "bare_tokens": [
+      [
+        1098
+      ],
+      [
+        1133
+      ],
+      [
+        1102
+      ],
+      [
+        1152
+      ]
+    ]
+  },
+  {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "config_model_type": "qwen2",
+    "attention_heads": 12,
+    "spaced_tokens": [
+      [
+        362
+      ],
+      [
+        425
+      ],
+      [
+        356
+      ],
+      [
+        422
+      ]
+    ],
+    "bare_tokens": [
+      [
+        32
+      ],
+      [
+        33
+      ],
+      [
+        34
+      ],
+      [
+        35
+      ]
+    ]
+  }
+]

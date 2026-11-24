@@ -1,0 +1,14 @@
+{
+  "seed": 9001,
+  "train_n": 96,
+  "test_n": 48,
+  "groups_sampled": 40,
+  "informative_groups": 34,
+  "grpo_accuracy": 0.22916666666666666,
+  "reward_pair_accuracy": 0.4791666567325592,
+  "student_domain_accuracy": 0.2291666716337204,
+  "student_teacher_agreement": 0.875,
+  "student_parameters": 72004,
+  "teacher": "frozen SFT reference",
+  "scope": "four allowed completions; synthetic preferences; one training seed"
+}

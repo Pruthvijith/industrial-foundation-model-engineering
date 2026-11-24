@@ -1,0 +1,482 @@
+[
+  {
+    "id": "test-000/0",
+    "group": "test-000",
+    "kind": "W",
+    "prompt": "Lab record test-000. Current is 66 amperes and voltage is 33 volts. In what SI unit is their product?\nOptions: A=J, B=W, C=Pa, D=insufficient\nLetter:",
+    "target": "B",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-000/1",
+    "group": "test-000",
+    "kind": "Pa",
+    "prompt": "Lab record test-000. Divide 64 newtons by an area of 61 square metres. Give the resulting SI unit.\nOptions: A=Pa, B=W, C=insufficient, D=J\nLetter:",
+    "target": "A",
+    "rejected": "D",
+    "prediction": "A",
+    "unconstrained_token": " A"
+  },
+  {
+    "id": "test-000/2",
+    "group": "test-000",
+    "kind": "J",
+    "prompt": "Lab record test-000. Integrate a constant 45 watts over 59 seconds. Which derived unit fits?\nOptions: A=W, B=insufficient, C=J, D=Pa\nLetter:",
+    "target": "C",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-000/3",
+    "group": "test-000",
+    "kind": "insufficient",
+    "prompt": "Lab record test-000. The log gives two readings, 85 and 49, with missing headings. Identify the measured unit.\nOptions: A=W, B=insufficient, C=J, D=Pa\nLetter:",
+    "target": "B",
+    "rejected": "C",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-001/0",
+    "group": "test-001",
+    "kind": "W",
+    "prompt": "Lab record test-001. Current is 19 amperes and voltage is 7 volts. In what SI unit is their product?\nOptions: A=W, B=insufficient, C=Pa, D=J\nLetter:",
+    "target": "A",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-001/1",
+    "group": "test-001",
+    "kind": "Pa",
+    "prompt": "Lab record test-001. Divide 43 newtons by an area of 6 square metres. Give the resulting SI unit.\nOptions: A=insufficient, B=J, C=Pa, D=W\nLetter:",
+    "target": "C",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-001/2",
+    "group": "test-001",
+    "kind": "J",
+    "prompt": "Lab record test-001. Integrate a constant 15 watts over 71 seconds. Which derived unit fits?\nOptions: A=Pa, B=insufficient, C=J, D=W\nLetter:",
+    "target": "C",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-001/3",
+    "group": "test-001",
+    "kind": "insufficient",
+    "prompt": "Lab record test-001. The log gives two readings, 90 and 56, with missing headings. Identify the measured unit.\nOptions: A=Pa, B=W, C=J, D=insufficient\nLetter:",
+    "target": "D",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-002/0",
+    "group": "test-002",
+    "kind": "W",
+    "prompt": "Lab record test-002. Current is 45 amperes and voltage is 29 volts. In what SI unit is their product?\nOptions: A=insufficient, B=W, C=Pa, D=J\nLetter:",
+    "target": "B",
+    "rejected": "A",
+    "prediction": "B",
+    "unconstrained_token": " B"
+  },
+  {
+    "id": "test-002/1",
+    "group": "test-002",
+    "kind": "Pa",
+    "prompt": "Lab record test-002. Divide 4 newtons by an area of 57 square metres. Give the resulting SI unit.\nOptions: A=W, B=Pa, C=insufficient, D=J\nLetter:",
+    "target": "B",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-002/2",
+    "group": "test-002",
+    "kind": "J",
+    "prompt": "Lab record test-002. Integrate a constant 41 watts over 64 seconds. Which derived unit fits?\nOptions: A=Pa, B=insufficient, C=J, D=W\nLetter:",
+    "target": "C",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-002/3",
+    "group": "test-002",
+    "kind": "insufficient",
+    "prompt": "Lab record test-002. The log gives two readings, 60 and 48, with missing headings. Identify the measured unit.\nOptions: A=J, B=W, C=Pa, D=insufficient\nLetter:",
+    "target": "D",
+    "rejected": "C",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-003/0",
+    "group": "test-003",
+    "kind": "W",
+    "prompt": "Lab record test-003. Current is 87 amperes and voltage is 47 volts. In what SI unit is their product?\nOptions: A=Pa, B=insufficient, C=W, D=J\nLetter:",
+    "target": "C",
+    "rejected": "B",
+    "prediction": "A",
+    "unconstrained_token": " A"
+  },
+  {
+    "id": "test-003/1",
+    "group": "test-003",
+    "kind": "Pa",
+    "prompt": "Lab record test-003. Divide 86 newtons by an area of 5 square metres. Give the resulting SI unit.\nOptions: A=insufficient, B=J, C=W, D=Pa\nLetter:",
+    "target": "D",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-003/2",
+    "group": "test-003",
+    "kind": "J",
+    "prompt": "Lab record test-003. Integrate a constant 68 watts over 23 seconds. Which derived unit fits?\nOptions: A=insufficient, B=Pa, C=W, D=J\nLetter:",
+    "target": "D",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-003/3",
+    "group": "test-003",
+    "kind": "insufficient",
+    "prompt": "Lab record test-003. The log gives two readings, 14 and 14, with missing headings. Identify the measured unit.\nOptions: A=Pa, B=J, C=W, D=insufficient\nLetter:",
+    "target": "D",
+    "rejected": "C",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-004/0",
+    "group": "test-004",
+    "kind": "W",
+    "prompt": "Lab record test-004. Current is 38 amperes and voltage is 53 volts. In what SI unit is their product?\nOptions: A=J, B=Pa, C=W, D=insufficient\nLetter:",
+    "target": "C",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-004/1",
+    "group": "test-004",
+    "kind": "Pa",
+    "prompt": "Lab record test-004. Divide 10 newtons by an area of 76 square metres. Give the resulting SI unit.\nOptions: A=J, B=Pa, C=insufficient, D=W\nLetter:",
+    "target": "B",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-004/2",
+    "group": "test-004",
+    "kind": "J",
+    "prompt": "Lab record test-004. Integrate a constant 9 watts over 37 seconds. Which derived unit fits?\nOptions: A=insufficient, B=Pa, C=J, D=W\nLetter:",
+    "target": "C",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-004/3",
+    "group": "test-004",
+    "kind": "insufficient",
+    "prompt": "Lab record test-004. The log gives two readings, 25 and 30, with missing headings. Identify the measured unit.\nOptions: A=W, B=Pa, C=J, D=insufficient\nLetter:",
+    "target": "D",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-005/0",
+    "group": "test-005",
+    "kind": "W",
+    "prompt": "Lab record test-005. Current is 85 amperes and voltage is 19 volts. In what SI unit is their product?\nOptions: A=W, B=insufficient, C=J, D=Pa\nLetter:",
+    "target": "A",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-005/1",
+    "group": "test-005",
+    "kind": "Pa",
+    "prompt": "Lab record test-005. Divide 66 newtons by an area of 39 square metres. Give the resulting SI unit.\nOptions: A=J, B=insufficient, C=Pa, D=W\nLetter:",
+    "target": "C",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-005/2",
+    "group": "test-005",
+    "kind": "J",
+    "prompt": "Lab record test-005. Integrate a constant 65 watts over 24 seconds. Which derived unit fits?\nOptions: A=W, B=J, C=Pa, D=insufficient\nLetter:",
+    "target": "B",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-005/3",
+    "group": "test-005",
+    "kind": "insufficient",
+    "prompt": "Lab record test-005. The log gives two readings, 58 and 60, with missing headings. Identify the measured unit.\nOptions: A=Pa, B=W, C=J, D=insufficient\nLetter:",
+    "target": "D",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-006/0",
+    "group": "test-006",
+    "kind": "W",
+    "prompt": "Lab record test-006. Current is 57 amperes and voltage is 33 volts. In what SI unit is their product?\nOptions: A=Pa, B=insufficient, C=W, D=J\nLetter:",
+    "target": "C",
+    "rejected": "A",
+    "prediction": "A",
+    "unconstrained_token": " A"
+  },
+  {
+    "id": "test-006/1",
+    "group": "test-006",
+    "kind": "Pa",
+    "prompt": "Lab record test-006. Divide 71 newtons by an area of 52 square metres. Give the resulting SI unit.\nOptions: A=W, B=J, C=Pa, D=insufficient\nLetter:",
+    "target": "C",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-006/2",
+    "group": "test-006",
+    "kind": "J",
+    "prompt": "Lab record test-006. Integrate a constant 53 watts over 67 seconds. Which derived unit fits?\nOptions: A=insufficient, B=J, C=Pa, D=W\nLetter:",
+    "target": "B",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-006/3",
+    "group": "test-006",
+    "kind": "insufficient",
+    "prompt": "Lab record test-006. The log gives two readings, 86 and 7, with missing headings. Identify the measured unit.\nOptions: A=insufficient, B=W, C=J, D=Pa\nLetter:",
+    "target": "A",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-007/0",
+    "group": "test-007",
+    "kind": "W",
+    "prompt": "Lab record test-007. Current is 30 amperes and voltage is 66 volts. In what SI unit is their product?\nOptions: A=J, B=W, C=Pa, D=insufficient\nLetter:",
+    "target": "B",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-007/1",
+    "group": "test-007",
+    "kind": "Pa",
+    "prompt": "Lab record test-007. Divide 66 newtons by an area of 37 square metres. Give the resulting SI unit.\nOptions: A=Pa, B=W, C=J, D=insufficient\nLetter:",
+    "target": "A",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-007/2",
+    "group": "test-007",
+    "kind": "J",
+    "prompt": "Lab record test-007. Integrate a constant 45 watts over 61 seconds. Which derived unit fits?\nOptions: A=J, B=Pa, C=insufficient, D=W\nLetter:",
+    "target": "A",
+    "rejected": "C",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-007/3",
+    "group": "test-007",
+    "kind": "insufficient",
+    "prompt": "Lab record test-007. The log gives two readings, 61 and 32, with missing headings. Identify the measured unit.\nOptions: A=W, B=insufficient, C=Pa, D=J\nLetter:",
+    "target": "B",
+    "rejected": "C",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-008/0",
+    "group": "test-008",
+    "kind": "W",
+    "prompt": "Lab record test-008. Current is 87 amperes and voltage is 9 volts. In what SI unit is their product?\nOptions: A=J, B=Pa, C=W, D=insufficient\nLetter:",
+    "target": "C",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-008/1",
+    "group": "test-008",
+    "kind": "Pa",
+    "prompt": "Lab record test-008. Divide 77 newtons by an area of 19 square metres. Give the resulting SI unit.\nOptions: A=insufficient, B=J, C=Pa, D=W\nLetter:",
+    "target": "C",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-008/2",
+    "group": "test-008",
+    "kind": "J",
+    "prompt": "Lab record test-008. Integrate a constant 74 watts over 44 seconds. Which derived unit fits?\nOptions: A=Pa, B=J, C=W, D=insufficient\nLetter:",
+    "target": "B",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-008/3",
+    "group": "test-008",
+    "kind": "insufficient",
+    "prompt": "Lab record test-008. The log gives two readings, 36 and 66, with missing headings. Identify the measured unit.\nOptions: A=W, B=Pa, C=J, D=insufficient\nLetter:",
+    "target": "D",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-009/0",
+    "group": "test-009",
+    "kind": "W",
+    "prompt": "Lab record test-009. Current is 66 amperes and voltage is 46 volts. In what SI unit is their product?\nOptions: A=insufficient, B=W, C=Pa, D=J\nLetter:",
+    "target": "B",
+    "rejected": "C",
+    "prediction": "B",
+    "unconstrained_token": " B"
+  },
+  {
+    "id": "test-009/1",
+    "group": "test-009",
+    "kind": "Pa",
+    "prompt": "Lab record test-009. Divide 85 newtons by an area of 24 square metres. Give the resulting SI unit.\nOptions: A=Pa, B=W, C=J, D=insufficient\nLetter:",
+    "target": "A",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-009/2",
+    "group": "test-009",
+    "kind": "J",
+    "prompt": "Lab record test-009. Integrate a constant 40 watts over 32 seconds. Which derived unit fits?\nOptions: A=insufficient, B=Pa, C=W, D=J\nLetter:",
+    "target": "D",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-009/3",
+    "group": "test-009",
+    "kind": "insufficient",
+    "prompt": "Lab record test-009. The log gives two readings, 40 and 47, with missing headings. Identify the measured unit.\nOptions: A=J, B=Pa, C=W, D=insufficient\nLetter:",
+    "target": "D",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-010/0",
+    "group": "test-010",
+    "kind": "W",
+    "prompt": "Lab record test-010. Current is 4 amperes and voltage is 41 volts. In what SI unit is their product?\nOptions: A=Pa, B=insufficient, C=W, D=J\nLetter:",
+    "target": "C",
+    "rejected": "B",
+    "prediction": "A",
+    "unconstrained_token": " A"
+  },
+  {
+    "id": "test-010/1",
+    "group": "test-010",
+    "kind": "Pa",
+    "prompt": "Lab record test-010. Divide 37 newtons by an area of 42 square metres. Give the resulting SI unit.\nOptions: A=J, B=Pa, C=insufficient, D=W\nLetter:",
+    "target": "B",
+    "rejected": "C",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-010/2",
+    "group": "test-010",
+    "kind": "J",
+    "prompt": "Lab record test-010. Integrate a constant 77 watts over 20 seconds. Which derived unit fits?\nOptions: A=W, B=J, C=insufficient, D=Pa\nLetter:",
+    "target": "B",
+    "rejected": "A",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-010/3",
+    "group": "test-010",
+    "kind": "insufficient",
+    "prompt": "Lab record test-010. The log gives two readings, 62 and 20, with missing headings. Identify the measured unit.\nOptions: A=W, B=insufficient, C=J, D=Pa\nLetter:",
+    "target": "B",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-011/0",
+    "group": "test-011",
+    "kind": "W",
+    "prompt": "Lab record test-011. Current is 9 amperes and voltage is 23 volts. In what SI unit is their product?\nOptions: A=insufficient, B=W, C=Pa, D=J\nLetter:",
+    "target": "B",
+    "rejected": "A",
+    "prediction": "A",
+    "unconstrained_token": " A"
+  },
+  {
+    "id": "test-011/1",
+    "group": "test-011",
+    "kind": "Pa",
+    "prompt": "Lab record test-011. Divide 24 newtons by an area of 27 square metres. Give the resulting SI unit.\nOptions: A=insufficient, B=W, C=J, D=Pa\nLetter:",
+    "target": "D",
+    "rejected": "B",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-011/2",
+    "group": "test-011",
+    "kind": "J",
+    "prompt": "Lab record test-011. Integrate a constant 77 watts over 48 seconds. Which derived unit fits?\nOptions: A=W, B=Pa, C=J, D=insufficient\nLetter:",
+    "target": "C",
+    "rejected": "D",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  },
+  {
+    "id": "test-011/3",
+    "group": "test-011",
+    "kind": "insufficient",
+    "prompt": "Lab record test-011. The log gives two readings, 90 and 47, with missing headings. Identify the measured unit.\nOptions: A=insufficient, B=Pa, C=W, D=J\nLetter:",
+    "target": "A",
+    "rejected": "C",
+    "prediction": "D",
+    "unconstrained_token": " D"
+  }
+]

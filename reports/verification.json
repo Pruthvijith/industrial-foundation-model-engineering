@@ -1,0 +1,11 @@
+{
+  "project": "industrial-foundation-model-engineering",
+  "pytest_passed": 8,
+  "source_statements": 306,
+  "missed_statements": 20,
+  "statement_coverage": 93.46,
+  "coverage_scope": "posttrain",
+  "mypy": "Success: no issues found in 5 source files",
+  "ruff": "check and format passed",
+  "ci": "configured; hosted run unverified"
+}
